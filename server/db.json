@@ -1,0 +1,1116 @@
+{
+  "users": [
+    {
+      "id": "987654321",
+      "full_name": "María García",
+      "company_name": "GreenFields",
+      "email_address": "maria.garcia@example.com",
+      "phone_number": "123456789",
+      "user_type": "vendedor",
+      "password": "securepass",
+      "payments_pending": [
+        {
+          "payment_type": "salario",
+          "amount": 500
+        }
+      ],
+      "receivables_pending": [
+        {
+          "receivable_type": "venta de manzanas",
+          "amount": 200
+        },
+        {
+          "receivable_type": "venta de otras frutas",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "id": "987654321",
+      "full_name": "María García",
+      "company_name": "GreenFields",
+      "email_address": "maria.garcia@example.com",
+      "phone_number": "123456789",
+      "user_type": "vendedor",
+      "password": "securepass",
+      "payments_pending": [
+        {
+          "payment_type": "salario",
+          "amount": 600
+        }
+      ],
+      "receivables_pending": [
+        {
+          "receivable_type": "venta de manzanas",
+          "amount": 400
+        }
+      ]
+    },
+    {
+      "id": "15344",
+      "full_name": "Martha",
+      "company_name": "Agricola",
+      "email_address": "marta@gmail.com",
+      "phone_number": "2154564646",
+      "user_type": "vendedor",
+      "password": "15466464",
+      "payments_pending": [
+        {
+          "payment_type": "salario",
+          "amount": 600
+        }
+      ],
+      "receivables_pending": [
+        {
+          "receivable_type": "venta de manzanas",
+          "amount": 400
+        }
+      ]
+    },
+    {
+      "id": "3231",
+      "full_name": "mario",
+      "company_name": "mario bussiness",
+      "email_address": "mario@gmail.com",
+      "phone_number": "4486486",
+      "user_type": "agricultor",
+      "password": "121221",
+      "payments_pending": [
+        {
+          "payment_type": "compra de abono",
+          "amount": 1000
+        }
+      ],
+      "receivables_pending": [
+        {
+          "receivable_type": "venta de manzanas",
+          "amount": 800
+        },
+        {
+          "receivable_type": "venta de otras frutas",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "id": 12345678,
+      "full_name": "Maria",
+      "company_name": "Maria",
+      "email_address": "maria@gmail.com",
+      "phone_number": "12345678",
+      "user_type": "agricultor",
+      "password": "12345678",
+      "confirmPassword": "12345678"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Sample Task",
+      "descriptionTask": "Lorem ipsum dolor sit amet.",
+      "dueDate": "2024-06-30",
+      "assignedTo": "John Doe",
+      "priority": "High",
+      "category": "Work",
+      "stateOfTask": "To Do"
+    },
+    {
+      "id": 2,
+      "name": "Update Website Content",
+      "descriptionTask": "Update the content on the company's.",
+      "dueDate": "2024-07-15",
+      "assignedTo": "Jane Smith",
+      "priority": "Medium",
+      "category": "Marketing",
+      "stateOfTask": "To Do"
+    },
+    {
+      "id": 3,
+      "name": "Review Quarterly Financial",
+      "descriptionTask": "Review and analyze the financial.",
+      "dueDate": "2024-07-05",
+      "assignedTo": "Michael Johnson",
+      "priority": "High",
+      "category": "Finance",
+      "stateOfTask": "In Progress"
+    },
+    {
+      "id": 4,
+      "name": "Develop New Feature",
+      "descriptionTask": "Implement a new feature based.",
+      "dueDate": "2024-07-10",
+      "assignedTo": "Emily Brown",
+      "priority": "High",
+      "category": "Development",
+      "stateOfTask": "In Progress"
+    },
+    {
+      "id": 5,
+      "name": "Organize Team Meeting",
+      "descriptionTask": "Schedule and organize a meeting.",
+      "dueDate": "2024-06-28",
+      "assignedTo": "David Wilson",
+      "priority": "Medium",
+      "category": "Project",
+      "stateOfTask": "To Do"
+    },
+    {
+      "id": 6,
+      "name": "Prepare Presentation",
+      "descriptionTask": "Create a presentation for the upcoming.",
+      "dueDate": "2024-07-08",
+      "assignedTo": "Sarah Thompson",
+      "priority": "Medium",
+      "category": "Events",
+      "stateOfTask": "To Do"
+    }
+  ],
+  "crops": [
+    {
+      "id": "3",
+      "estado": "Bueno",
+      "area": 50,
+      "costo": 200,
+      "producto": "Maíz",
+      "retorno": 600,
+      "localizacion": "Trujillo",
+      "notificaciones": "Ninguna",
+      "asesorId": 31,
+      "imageUrl": "https://i.postimg.cc/hGWLZTfZ/choclo.jpg",
+      "calendars": [
+        {
+          "id": 101,
+          "fecha": "2024-06-01",
+          "actividad": "Siembra",
+          "estado": "Germinación"
+        },
+        {
+          "id": 102,
+          "fecha": "2024-06-02",
+          "actividad": "Riego inicial",
+          "estado": "Crecimiento temprano"
+        },
+        {
+          "id": 103,
+          "fecha": "2024-06-03",
+          "actividad": "Control de plagas",
+          "estado": "Mantenimiento"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "estado": "Excelente",
+      "area": 60,
+      "costo": 250,
+      "producto": "Papa",
+      "retorno": 700,
+      "localizacion": "Arequipa",
+      "notificaciones": "Ninguna",
+      "asesorId": 41,
+      "imageUrl": "https://i.postimg.cc/XqVxHFD6/papa.jpg",
+      "calendars": [
+        {
+          "id": 201,
+          "fecha": "2024-07-01",
+          "actividad": "Siembra",
+          "estado": "Germinación"
+        },
+        {
+          "id": 202,
+          "fecha": "2024-07-02",
+          "actividad": "Fertilización inicial",
+          "estado": "Crecimiento temprano"
+        },
+        {
+          "id": 203,
+          "fecha": "2024-07-03",
+          "actividad": "Inspección de suelo",
+          "estado": "Mantenimiento"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "estado": "Bueno",
+      "area": 45,
+      "costo": 180,
+      "producto": "Arroz",
+      "retorno": 550,
+      "localizacion": "Lambayeque",
+      "notificaciones": "Todas",
+      "asesorId": 41,
+      "imageUrl": "https://i.postimg.cc/NfdCnJcJ/arroz.jpg",
+      "calendars": [
+        {
+          "id": 301,
+          "fecha": "2024-08-10",
+          "actividad": "Siembra",
+          "estado": "Germinación"
+        },
+        {
+          "id": 302,
+          "fecha": "2024-08-11",
+          "actividad": "Riego inicial",
+          "estado": "Crecimiento temprano"
+        },
+        {
+          "id": 303,
+          "fecha": "2024-08-12",
+          "actividad": "Control de malezas",
+          "estado": "Mantenimiento"
+        }
+      ]
+    },
+    {
+      "id": "7896",
+      "estado": "Regular",
+      "area": 55,
+      "costo": 220,
+      "producto": "Café",
+      "retorno": 650,
+      "localizacion": "Cusco",
+      "notificaciones": "Ninguna",
+      "asesorId": 41,
+      "imageUrl": "https://i.postimg.cc/bNw31xtQ/cafee.png",
+      "calendars": [
+        {
+          "id": 401,
+          "fecha": "2024-09-05",
+          "actividad": "Siembra",
+          "estado": "Germinación"
+        },
+        {
+          "id": 402,
+          "fecha": "2024-09-06",
+          "actividad": "Aplicación de abono",
+          "estado": "Crecimiento temprano"
+        },
+        {
+          "id": 403,
+          "fecha": "2024-09-07",
+          "actividad": "Monitoreo de crecimiento",
+          "estado": "Mantenimiento"
+        }
+      ]
+    }
+  ],
+  "asesores": [
+    {
+      "id": "31",
+      "nombre": "Carlos Huerta",
+      "descripcion": "Asesor especializado en maíz con amplia experiencia en el clima de Trujillo.",
+      "calificacion": 4.8
+    },
+    {
+      "id": "21",
+      "nombre": "Luisa Fernández",
+      "descripcion": "Experta en hortalizas, con enfoque en tomate y técnicas de cultivo orgánico.",
+      "calificacion": 4.6
+    },
+    {
+      "id": "41",
+      "nombre": "Rosa Alvarado",
+      "descripcion": "Asesora con conocimientos avanzados en papa, arroz y café, con énfasis en sostenibilidad.",
+      "calificacion": 4.7
+    },
+    {
+      "id": "51",
+      "nombre": "Jorge Campos",
+      "descripcion": "Asesor en cultivos diversificados y gestión de recursos hídricos.",
+      "calificacion": 4.5
+    },
+    {
+      "id": "61",
+      "nombre": "Ana Torres",
+      "descripcion": "Especialista en cultivos de clima cálido y técnicas de riego eficientes.",
+      "calificacion": 4.9
+    },
+    {
+      "id": "71",
+      "nombre": "Pedro Gutiérrez",
+      "descripcion": "Asesor con experiencia internacional en cultivos de exportación y mercados globales.",
+      "calificacion": 4.4
+    }
+  ],
+  "providers": [
+    {
+      "id": "1",
+      "proveedor": "Diego Cano",
+      "costo": "8470",
+      "estadoEnvio": "En camino",
+      "fechaEntrega": "06/08/2024",
+      "localizacion": "-11.911609, -76.663388",
+      "telefono": 998548321,
+      "entregado": 0
+    },
+    {
+      "id": "2",
+      "proveedor": "Alejandro Rios",
+      "costo": "6578",
+      "estadoEnvio": "Entregado",
+      "fechaEntrega": "12/06/2024",
+      "localizacion": "-12.060155, -76.960981",
+      "telefono": 996812457,
+      "entregado": 0
+    },
+    {
+      "id": "3",
+      "proveedor": "Gabriel Martinez",
+      "costo": "6900",
+      "estadoEnvio": "En espera",
+      "fechaEntrega": "24/11/2024",
+      "localizacion": "-12.058007, -76.950871",
+      "telefono": 989589551,
+      "entregado": 0
+    },
+    {
+      "id": "afd2",
+      "proveedor": "Gael Garcia",
+      "fechaEntrega": "12/11/24",
+      "localizacion": "-12.056007, -76.950871",
+      "telefono": "940405166",
+      "costo": 3000,
+      "estadoEnvio": "Entregado"
+    }
+  ],
+  "pagosPendientes": [
+    {
+      "id": "1",
+      "tipo": "Salarios",
+      "costo": "5891",
+      "descripcion": "Pago de salarios",
+      "pagado": 0
+    },
+    {
+      "id": "2",
+      "tipo": "Compra Abono",
+      "costo": "6500",
+      "descripcion": "Compra mensual de abono",
+      "pagado": 0
+    },
+    {
+      "id": "3",
+      "tipo": "Compra Semillas",
+      "costo": "7455",
+      "descripcion": "Compra mensual de semillas",
+      "pagado": 1
+    },
+    {
+      "id": "a002",
+      "tipo": "Compra anual de herramientas",
+      "costo": 300,
+      "descripcion": "Compra de palas, azadas, rastrillos, tijeras y carretillas.",
+      "pagado": 0
+    }
+  ],
+  "cobranzasPendientes": [
+    {
+      "id": "1",
+      "tipo": "Venta Manzanas",
+      "costo": "5200",
+      "descripcion": "Manzanas vendidas a Juan",
+      "pagado": 0
+    },
+    {
+      "id": "2",
+      "tipo": "Venta Trigo",
+      "costo": "5000",
+      "descripcion": "Trigo vendido a Diego",
+      "pagado": 0
+    },
+    {
+      "id": "3",
+      "tipo": "Venta Zanahorias",
+      "costo": "6400",
+      "descripcion": "Zanahorias vendidas a Jose",
+      "pagado": 0
+    }
+  ],
+  "finanzas": [
+    {
+      "id": "1",
+      "mes": "Enero",
+      "ingresos": 8000,
+      "gastos": 5000,
+      "ganancias": 3000
+    },
+    {
+      "id": "2",
+      "mes": "Febrero",
+      "ingresos": 9000,
+      "gastos": 3000,
+      "ganancias": 6000
+    },
+    {
+      "id": "dfb7",
+      "mes": "Marzo",
+      "ingresos": 9000,
+      "gastos": 7000,
+      "ganancias": 2000
+    },
+    {
+      "id": "edef",
+      "mes": "Abril",
+      "ingresos": 7000,
+      "gastos": 2000,
+      "ganancias": 5000
+    },
+    {
+      "id": "202a",
+      "mes": "Enero",
+      "ingresos": 1,
+      "gastos": 1,
+      "ganancias": 0
+    }
+  ],
+  "employees": [
+    {
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "edad": 30,
+      "dni": "12345678",
+      "cargo": "operario",
+      "salario": 20000,
+      "telefono": "123-456-780",
+      "photoUrl": "https://randomuser.me/api/portraits/men/87.jpg",
+      "id": "c648"
+    },
+    {
+      "nombre": "María",
+      "apellido": "García",
+      "edad": 45,
+      "dni": "87654321",
+      "cargo": "asesor",
+      "salario": 35000,
+      "telefono": "098-765-421",
+      "photoUrl": "https://randomuser.me/api/portraits/women/9.jpg",
+      "id": "fd88"
+    },
+    {
+      "nombre": "Carlos",
+      "apellido": "Rodríguez",
+      "edad": 28,
+      "dni": "11223344",
+      "cargo": "operario",
+      "salario": 22000,
+      "telefono": "555-555-555",
+      "photoUrl": "https://randomuser.me/api/portraits/men/62.jpg",
+      "id": "229f"
+    },
+    {
+      "nombre": "Laura",
+      "apellido": "Martínez",
+      "edad": 33,
+      "dni": "22334455",
+      "cargo": "asesor",
+      "salario": 30000,
+      "telefono": "946-167-362",
+      "photoUrl": "https://randomuser.me/api/portraits/women/34.jpg",
+      "id": "258a"
+    },
+    {
+      "nombre": "Ana",
+      "apellido": "López",
+      "edad": 40,
+      "dni": "78503768",
+      "cargo": "operario",
+      "salario": 25000,
+      "telefono": "777-777-777",
+      "photoUrl": "https://randomuser.me/api/portraits/women/84.jpg",
+      "id": "5860"
+    },
+    {
+      "nombre": "Miguel",
+      "apellido": "González",
+      "edad": 50,
+      "dni": "44556677",
+      "cargo": "operario",
+      "salario": 40000,
+      "telefono": "888-888-888",
+      "photoUrl": "https://randomuser.me/api/portraits/men/93.jpg",
+      "id": "dc12"
+    },
+    {
+      "id": "3351",
+      "nombre": "Gustavo",
+      "apellido": "Poma",
+      "edad": 25,
+      "dni": "666666666",
+      "cargo": "asesor",
+      "salario": 10000000000,
+      "telefono": "999777000",
+      "photoUrl": "data:image/jpeg;base64,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"
+    }
+  ],
+  "equipos": [
+    {
+      "codigo_equipo": "E001",
+      "presupuesto": 100000,
+      "codigo_cultivo": "C001",
+      "asesor": {
+        "nombre": "María",
+        "apellido": "García",
+        "dni": "87654321"
+      },
+      "operarios": [
+        {
+          "nombre": "Juan",
+          "apellido": "Pérez",
+          "dni": "12345678"
+        },
+        {
+          "nombre": "Carlos",
+          "apellido": "Rodríguez",
+          "dni": "11223344"
+        }
+      ],
+      "id": "b656"
+    },
+    {
+      "codigo_equipo": "E002",
+      "presupuesto": 150000,
+      "codigo_cultivo": "C002",
+      "asesor": {
+        "nombre": "Laura",
+        "apellido": "Martínez",
+        "dni": "22334455"
+      },
+      "operarios": [
+        {
+          "nombre": "Ana",
+          "apellido": "López",
+          "dni": "33445566"
+        },
+        {
+          "nombre": "Miguel",
+          "apellido": "González",
+          "dni": "44556677"
+        }
+      ],
+      "id": "ecbb"
+    },
+    {
+      "codigo_equipo": "E003",
+      "presupuesto": 100000,
+      "codigo_cultivo": "C003",
+      "asesor": {
+        "nombre": "Rosa",
+        "apellido": "Peres",
+        "dni": "87654321"
+      },
+      "operarios": [
+        {
+          "nombre": "Aldo",
+          "apellido": "Motes",
+          "dni": "12345678"
+        },
+        {
+          "nombre": "Felipe",
+          "apellido": "Ramirez",
+          "dni": "11223344"
+        }
+      ],
+      "id": "b656"
+    },
+    {
+      "codigo_equipo": "E004",
+      "presupuesto": 100000,
+      "codigo_cultivo": "C001",
+      "asesor": {
+        "nombre": "Pedro",
+        "apellido": "Ramirez",
+        "dni": "87654321"
+      },
+      "operarios": [
+        {
+          "nombre": "Mario",
+          "apellido": "Valdez",
+          "dni": "12345678"
+        },
+        {
+          "nombre": "Carlos",
+          "apellido": "Rodríguez",
+          "dni": "11223344"
+        }
+      ],
+      "id": "b656"
+    },
+    {
+      "codigo_equipo": "E004",
+      "presupuesto": 100000,
+      "codigo_cultivo": "C001",
+      "asesor": {
+        "nombre": "Pedro",
+        "apellido": "Ramirez",
+        "dni": "87654321"
+      },
+      "operarios": [
+        {
+          "nombre": "Mario",
+          "apellido": "Valdez",
+          "dni": "12345678"
+        },
+        {
+          "nombre": "Carlos",
+          "apellido": "Rodríguez",
+          "dni": "11223344"
+        }
+      ],
+      "id": "b656"
+    },
+    {
+      "codigo_equipo": "E005",
+      "presupuesto": 85000,
+      "codigo_cultivo": "C002",
+      "asesor": {
+        "nombre": "Juan",
+        "apellido": "García",
+        "dni": "98765432"
+      },
+      "operarios": [
+        {
+          "nombre": "Luis",
+          "apellido": "Pérez",
+          "dni": "54321678"
+        },
+        {
+          "nombre": "Ana",
+          "apellido": "Martínez",
+          "dni": "99887766"
+        }
+      ],
+      "id": "b657"
+    },
+    {
+      "codigo_equipo": "E006",
+      "presupuesto": 120000,
+      "codigo_cultivo": "C003",
+      "asesor": {
+        "nombre": "María",
+        "apellido": "López",
+        "dni": "76543210"
+      },
+      "operarios": [
+        {
+          "nombre": "Jorge",
+          "apellido": "Hernández",
+          "dni": "33445566"
+        },
+        {
+          "nombre": "Elena",
+          "apellido": "Gómez",
+          "dni": "88990011"
+        }
+      ],
+      "id": "b658"
+    },
+    {
+      "codigo_equipo": "E007",
+      "presupuesto": 95000,
+      "codigo_cultivo": "C004",
+      "asesor": {
+        "nombre": "Andrea",
+        "apellido": "Castro",
+        "dni": "65432109"
+      },
+      "operarios": [
+        {
+          "nombre": "Roberto",
+          "apellido": "Fernández",
+          "dni": "55442"
+        },
+        {
+          "nombre": "Patricia",
+          "apellido": "Sánchez",
+          "dni": "77665544"
+        }
+      ],
+      "id": "b659"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "producto": "Papa",
+      "antiguedad": 4,
+      "cantidad_minima": 45,
+      "cantidad_maxima": 156,
+      "numero_ventas": 321,
+      "valoracion": 4
+    },
+    {
+      "id": "2",
+      "producto": "Camote",
+      "antiguedad": 3,
+      "cantidad_minima": 67,
+      "cantidad_maxima": 132,
+      "numero_ventas": 234,
+      "valoracion": 3
+    },
+    {
+      "id": "3",
+      "producto": "Oca",
+      "antiguedad": 2,
+      "cantidad_minima": 89,
+      "cantidad_maxima": 170,
+      "numero_ventas": 123,
+      "valoracion": 5
+    },
+    {
+      "id": "4",
+      "producto": "Mashua",
+      "antiguedad": 5,
+      "cantidad_minima": 52,
+      "cantidad_maxima": 143,
+      "numero_ventas": 456,
+      "valoracion": 2
+    },
+    {
+      "id": "5",
+      "producto": "Yuca",
+      "antiguedad": 1,
+      "cantidad_minima": 23,
+      "cantidad_maxima": 87,
+      "numero_ventas": 678,
+      "valoracion": 4
+    },
+    {
+      "id": "6",
+      "producto": "Arracacha",
+      "antiguedad": 3,
+      "cantidad_minima": 45,
+      "cantidad_maxima": 178,
+      "numero_ventas": 910,
+      "valoracion": 3
+    },
+    {
+      "id": "7",
+      "producto": "Maca",
+      "antiguedad": 4,
+      "cantidad_minima": 56,
+      "cantidad_maxima": 134,
+      "numero_ventas": 432,
+      "valoracion": 5
+    },
+    {
+      "id": "8",
+      "producto": "Olluco",
+      "antiguedad": 2,
+      "cantidad_minima": 65,
+      "cantidad_maxima": 112,
+      "numero_ventas": 543,
+      "valoracion": 2
+    },
+    {
+      "id": "9",
+      "producto": "Quinua",
+      "antiguedad": 5,
+      "cantidad_minima": 34,
+      "cantidad_maxima": 109,
+      "numero_ventas": 678,
+      "valoracion": 3
+    },
+    {
+      "id": "10",
+      "producto": "Tarwi",
+      "antiguedad": 4,
+      "cantidad_minima": 78,
+      "cantidad_maxima": 145,
+      "numero_ventas": 321,
+      "valoracion": 4
+    },
+    {
+      "id": "11",
+      "producto": "Zapallo",
+      "antiguedad": 2,
+      "cantidad_minima": 47,
+      "cantidad_maxima": 134,
+      "numero_ventas": 234,
+      "valoracion": 5
+    },
+    {
+      "id": "12",
+      "producto": "Calabaza",
+      "antiguedad": 3,
+      "cantidad_minima": 64,
+      "cantidad_maxima": 187,
+      "numero_ventas": 765,
+      "valoracion": 2
+    },
+    {
+      "id": "13",
+      "producto": "Calabacín",
+      "antiguedad": 1,
+      "cantidad_minima": 83,
+      "cantidad_maxima": 176,
+      "numero_ventas": 123,
+      "valoracion": 3
+    },
+    {
+      "id": "14",
+      "producto": "Pepino",
+      "antiguedad": 5,
+      "cantidad_minima": 29,
+      "cantidad_maxima": 134,
+      "numero_ventas": 654,
+      "valoracion": 4
+    },
+    {
+      "id": "15",
+      "producto": "Pepinillo",
+      "antiguedad": 2,
+      "cantidad_minima": 34,
+      "cantidad_maxima": 121,
+      "numero_ventas": 765,
+      "valoracion": 2
+    },
+    {
+      "id": "16",
+      "producto": "Tomate",
+      "antiguedad": 3,
+      "cantidad_minima": 78,
+      "cantidad_maxima": 156,
+      "numero_ventas": 987,
+      "valoracion": 5
+    },
+    {
+      "id": "17",
+      "producto": "Tomatillo",
+      "antiguedad": 4,
+      "cantidad_minima": 54,
+      "cantidad_maxima": 145,
+      "numero_ventas": 342,
+      "valoracion": 3
+    },
+    {
+      "id": "18",
+      "producto": "Pimiento",
+      "antiguedad": 1,
+      "cantidad_minima": 76,
+      "cantidad_maxima": 189,
+      "numero_ventas": 876,
+      "valoracion": 4
+    },
+    {
+      "id": "19",
+      "producto": "Ají amarillo",
+      "antiguedad": 2,
+      "cantidad_minima": 45,
+      "cantidad_maxima": 134,
+      "numero_ventas": 543,
+      "valoracion": 3
+    },
+    {
+      "id": "20",
+      "producto": "Ají panca",
+      "antiguedad": 5,
+      "cantidad_minima": 34,
+      "cantidad_maxima": 145,
+      "numero_ventas": 234,
+      "valoracion": 5
+    },
+    {
+      "id": "21",
+      "producto": "Ají rocoto",
+      "antiguedad": 4,
+      "cantidad_minima": 78,
+      "cantidad_maxima": 165,
+      "numero_ventas": 876,
+      "valoracion": 2
+    },
+    {
+      "id": "22",
+      "producto": "Ají limo",
+      "antiguedad": 1,
+      "cantidad_minima": 56,
+      "cantidad_maxima": 134,
+      "numero_ventas": 321,
+      "valoracion": 4
+    },
+    {
+      "id": "23",
+      "producto": "Choclo",
+      "antiguedad": 2,
+      "cantidad_minima": 89,
+      "cantidad_maxima": 176,
+      "numero_ventas": 543,
+      "valoracion": 3
+    },
+    {
+      "id": "24",
+      "producto": "Chirimoya",
+      "antiguedad": 5,
+      "cantidad_minima": 47,
+      "cantidad_maxima": 123,
+      "numero_ventas": 876,
+      "valoracion": 5
+    },
+    {
+      "id": "25",
+      "producto": "Palta",
+      "antiguedad": 4,
+      "cantidad_minima": 56,
+      "cantidad_maxima": 145,
+      "numero_ventas": 654,
+      "valoracion": 3
+    },
+    {
+      "id": "26",
+      "producto": "Caigua",
+      "antiguedad": 3,
+      "cantidad_minima": 78,
+      "cantidad_maxima": 165,
+      "numero_ventas": 234,
+      "valoracion": 4
+    },
+    {
+      "id": "27",
+      "producto": "Chayote",
+      "antiguedad": 2,
+      "cantidad_minima": 45,
+      "cantidad_maxima": 176,
+      "numero_ventas": 543,
+      "valoracion": 3
+    },
+    {
+      "id": "28",
+      "producto": "Espinaca",
+      "antiguedad": 1,
+      "cantidad_minima": 67,
+      "cantidad_maxima": 156,
+      "numero_ventas": 876,
+      "valoracion": 5
+    },
+    {
+      "id": "29",
+      "producto": "Acelga",
+      "antiguedad": 4,
+      "cantidad_minima": 89,
+      "cantidad_maxima": 145,
+      "numero_ventas": 654,
+      "valoracion": 2
+    },
+    {
+      "id": "30",
+      "producto": "Lechuga",
+      "antiguedad": 5,
+      "cantidad_minima": 56,
+      "cantidad_maxima": 134,
+      "numero_ventas": 321,
+      "valoracion": 4
+    }
+  ],
+  "blog": [
+    {
+      "Title": "Effective Pest Control in Agriculture",
+      "Subtitle": "Strategies and Best Practices",
+      "Content": "Pest control is a critical aspect of modern agriculture, where farmers face constant challenges from pests that can devastate crops. Integrated Pest Management (IPM) combines biological, cultural, and chemical control methods to minimize pest damage while protecting the environment and human health. Techniques such as crop rotation, biological control using natural predators, and targeted pesticide application are key components of effective pest management strategies. By adopting sustainable practices and staying informed about pest behavior and resistance patterns, farmers can maintain healthy crops and improve yields.",
+      "Summary": "An overview of effective pest control strategies for sustainable agriculture.",
+      "CategoryBlog": "Agriculture",
+      "RoleBlog": "Farmer",
+      "TypeAuthor": "Collaborator",
+      "ImageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_16/3466252/210420-young-farmers-middle-ground-mn-1225.jpg",
+      "CommentsCount": 10,
+      "ReadTimeMinutes": 12
+    },
+    {
+      "Title": "Boosting Crop Yield with Modern Techniques",
+      "Subtitle": "Innovative Approaches for Higher Productivity",
+      "Content": "Modern farming techniques offer innovative solutions to increase crop yield and maximize productivity. Precision agriculture utilizes satellite imagery, GPS, and sensors to optimize planting, irrigation, and fertilizer application, resulting in higher yields and reduced resource use. Additionally, advancements in seed genetics and biotechnology enable the development of disease-resistant and drought-tolerant crops. By implementing these technologies and practices, farmers can sustainably meet the growing demand for food while minimizing environmental impact.",
+      "Summary": "Exploring modern farming methods to boost crop yield and efficiency.",
+      "CategoryBlog": "Agriculture",
+      "RoleBlog": "Farmer",
+      "TypeAuthor": "Editor",
+      "ImageUrl": "https://t3.ftcdn.net/jpg/03/80/27/88/360_F_380278806_hU362lmcYRqkb8reIageNj4Qh7ID9mIg.jpg",
+      "CommentsCount": 8,
+      "ReadTimeMinutes": 15
+    },
+    {
+      "Title": "Sustainable Agriculture Practices",
+      "Subtitle": "Ensuring Long-Term Environmental Health",
+      "Content": "Sustainable agriculture practices focus on preserving environmental health while meeting the needs of present and future generations. Techniques such as organic farming, agroforestry, and soil conservation help maintain soil fertility, biodiversity, and water quality. These practices reduce reliance on synthetic inputs and minimize environmental degradation. Adopting sustainable methods not only enhances ecosystem resilience but also ensures the viability of agricultural production in the long run.",
+      "Summary": "Exploring methods for sustainable agriculture to preserve environmental resources.",
+      "CategoryBlog": "Agriculture",
+      "RoleBlog": "Farmer",
+      "TypeAuthor": "Guest",
+      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTJg1eQvoxZboM_llKsarM9vzeGYoC2B--rA&s",
+      "CommentsCount": 12,
+      "ReadTimeMinutes": 18
+    },
+    {
+      "Title": "Market Trends in Agricultural Technology",
+      "Subtitle": "What Every Farmer Should Know",
+      "Content": "Staying updated on market trends in agricultural technology is crucial for farmers aiming to improve efficiency and competitiveness. Emerging technologies such as drones for crop monitoring, blockchain for supply chain transparency, and IoT (Internet of Things) for precision farming offer new opportunities to enhance productivity and sustainability. Understanding these trends and their potential impact allows farmers to make informed decisions and adopt technologies that best fit their operational needs.",
+      "Summary": "Insights into technological advancements shaping the future of agriculture.",
+      "CategoryBlog": "Agriculture",
+      "RoleBlog": "Farmer",
+      "TypeAuthor": "Collaborator",
+      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR69xmdkqM_AgDAupsFhRONuheTz0Sx2r8KVg&s",
+      "CommentsCount": 6,
+      "ReadTimeMinutes": 10
+    },
+    {
+      "Title": "Marketing Strategies for Farm Products",
+      "Subtitle": "Effective Ways to Reach Your Customers",
+      "Content": "Successful marketing strategies are essential for farmers to connect with consumers and differentiate their products in competitive markets. Building a strong brand identity, utilizing digital marketing channels, and participating in farmers' markets or local food networks are effective approaches. Highlighting the quality, sustainability, and health benefits of farm products can attract environmentally conscious consumers. By leveraging these strategies, farmers can expand their customer base and increase sales, ensuring profitability and long-term success.",
+      "Summary": "Tips for promoting farm products effectively through strategic marketing.",
+      "CategoryBlog": "Agriculture",
+      "RoleBlog": "Seller",
+      "TypeAuthor": "Editor",
+      "ImageUrl": "https://www.nationaldaycalendar.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:eco%2Cw_768/MjAxMzgwNjkwNjAyNzY0MjYx/website-feature---national-farmers-day--october-12.png",
+      "CommentsCount": 15,
+      "ReadTimeMinutes": 14
+    },
+    {
+      "Title": "Financial Management Tips for Farmers",
+      "Subtitle": "Ensuring Financial Stability",
+      "Content": "Sound financial management is crucial for farmers to achieve financial stability and sustain their operations through economic uncertainties. Practices such as budgeting, diversifying income sources, and managing cash flow effectively help mitigate risks and optimize resource allocation. Additionally, accessing financial tools like loans and grants tailored for agriculture can support investment in equipment upgrades or expansion. By implementing these strategies, farmers can navigate market fluctuations and secure their financial future.",
+      "Summary": "Strategies to achieve financial stability and growth in agricultural businesses.",
+      "CategoryBlog": "Finance",
+      "RoleBlog": "Farmer",
+      "TypeAuthor": "Guest",
+      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaJRjYHE62ayVPf4csvdT1E6l5M59fk-yOOQ&s",
+      "CommentsCount": 10,
+      "ReadTimeMinutes": 12
+    },
+    {
+      "Title": "Health Benefits of Organic Farming Important",
+      "Subtitle": "Why Organic is the Way Forward",
+      "Content": "Organic farming practices prioritize soil health, biodiversity, and consumer health by avoiding synthetic pesticides and fertilizers. Organic foods are rich in nutrients and free from harmful residues, promoting overall well-being. Studies suggest that organic farming contributes to environmental conservation by reducing chemical runoff and preserving natural habitats. By choosing organic products, consumers support sustainable agriculture and enjoy foods that are healthier for both people and the planet.",
+      "Summary": "Exploring the health benefits of choosing organic farming methods.",
+      "CategoryBlog": "Health",
+      "RoleBlog": "Farmer",
+      "TypeAuthor": "Collaborator",
+      "ImageUrl": "https://imageio.forbes.com/specials-images/imageserve/6386051503e5775ae945979a/Farmer-looking-out-across-field-while-harvesting/960x0.jpg?height=473&width=711&fit=bounds",
+      "CommentsCount": 8,
+      "ReadTimeMinutes": 15
+    },
+    {
+      "Title": "Introduction to Precision Agriculture",
+      "Subtitle": "Enhancing Farming Efficiency",
+      "Content": "Precision agriculture integrates advanced technologies to optimize farming practices and maximize productivity. Remote sensing, GPS-guided machinery, and data analytics enable farmers to precisely manage inputs such as water, fertilizers, and pesticides. By mapping variability within fields and applying inputs as needed, farmers reduce waste and enhance crop yields. Precision agriculture also supports environmental sustainability by minimizing resource use and improving soil health. Embracing these technologies empowers farmers to achieve greater efficiency and profitability in a rapidly evolving agricultural landscape.",
+      "Summary": "An overview of precision agriculture technologies and their benefits for farmers.",
+      "CategoryBlog": "Agriculture",
+      "RoleBlog": "Farmer",
+      "TypeAuthor": "Editor",
+      "ImageUrl": "https://as2.ftcdn.net/v2/jpg/02/50/10/17/1000_F_250101768_Qhn6oFRCgQArmI5Ov5EY3EOtYTTHpOg5.jpg",
+      "CommentsCount": 12,
+      "ReadTimeMinutes": 18
+    },
+    {
+      "Title": "Managing Risks in Agricultural Investments",
+      "Subtitle": "Strategies for Minimizing Financial Risks",
+      "Content": "Agricultural investments carry inherent risks, from market fluctuations to weather events, impacting profitability. Risk management strategies such as diversifying crops, implementing insurance policies, and hedging against price volatility help mitigate financial uncertainties. Developing contingency plans and maintaining strong relationships with financial advisors and industry experts provide additional support. By adopting proactive risk management practices, farmers can safeguard investments and navigate challenges effectively, ensuring long-term sustainability and profitability.",
+      "Summary": "Strategies to minimize financial risks and enhance resilience in agricultural investments.",
+      "CategoryBlog": "Finance",
+      "RoleBlog": "Seller",
+      "TypeAuthor": "Collaborator",
+      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ildmdd3AaCnO_EYKYwxY46idPKy_nLPfsg&s",
+      "CommentsCount": 6,
+      "ReadTimeMinutes": 10
+    }
+  ]
+,
+  "orders": []
+}
